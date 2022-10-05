@@ -79,4 +79,17 @@ extension MainController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if !(indexPath.section == 1 && (indexPath.row == 0 || indexPath.row == 5)) {
+            let nextViewController = DetailController()
+            tableView.deselectRow(at: indexPath, animated: true)
+            print("Нажата ячейка \"\(model[indexPath.section][indexPath.row].title)\"")
+            nextViewController.detailSetting = model[indexPath.section][indexPath.row]
+            navigationController?.pushViewController(nextViewController, animated: true)
+        } else {
+            tableView.deselectRow(at: indexPath, animated: true)
+            print("Нажата ячейка \"\(model[indexPath.section][indexPath.row].title)\"")
+        }
+    }
+    
 }

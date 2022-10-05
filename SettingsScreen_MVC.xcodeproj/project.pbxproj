@@ -17,6 +17,7 @@
 		8979C55C28EDDA000094F20D /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55B28EDDA000094F20D /* CustomViewCell.swift */; };
 		8979C55E28EDDC890094F20D /* SwitcherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */; };
 		8979C56028EDE08A0094F20D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55F28EDE08A0094F20D /* MainController.swift */; };
+		8979C56228EDE2950094F20D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C56128EDE2950094F20D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8979C55B28EDDA000094F20D /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
 		8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherViewCell.swift; sourceTree = "<group>"; };
 		8979C55F28EDE08A0094F20D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		8979C56128EDE2950094F20D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		8979C54228ED79BC0094F20D /* DetailView */ = {
 			isa = PBXGroup;
 			children = (
+				8979C56128EDE2950094F20D /* DetailView.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8979C56028EDE08A0094F20D /* MainController.swift in Sources */,
+				8979C56228EDE2950094F20D /* DetailView.swift in Sources */,
 				8979C55E28EDDC890094F20D /* SwitcherViewCell.swift in Sources */,
 				8979C52A28ED782C0094F20D /* SettingsView.swift in Sources */,
 				8979C55C28EDDA000094F20D /* CustomViewCell.swift in Sources */,

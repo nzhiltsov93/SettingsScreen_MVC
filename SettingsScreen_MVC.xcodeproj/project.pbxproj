@@ -15,6 +15,7 @@
 		8979C55828EDD3120094F20D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55728EDD3120094F20D /* Model.swift */; };
 		8979C55A28EDD9010094F20D /* ProfileViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55928EDD9010094F20D /* ProfileViewCell.swift */; };
 		8979C55C28EDDA000094F20D /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55B28EDDA000094F20D /* CustomViewCell.swift */; };
+		8979C55E28EDDC890094F20D /* SwitcherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8979C55728EDD3120094F20D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8979C55928EDD9010094F20D /* ProfileViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewCell.swift; sourceTree = "<group>"; };
 		8979C55B28EDDA000094F20D /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			children = (
 				8979C55928EDD9010094F20D /* ProfileViewCell.swift */,
 				8979C55B28EDDA000094F20D /* CustomViewCell.swift */,
+				8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */,
 			);
 			path = ViewCell;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8979C55E28EDDC890094F20D /* SwitcherViewCell.swift in Sources */,
 				8979C52A28ED782C0094F20D /* ViewController.swift in Sources */,
 				8979C55C28EDDA000094F20D /* CustomViewCell.swift in Sources */,
 				8979C52628ED782C0094F20D /* AppDelegate.swift in Sources */,

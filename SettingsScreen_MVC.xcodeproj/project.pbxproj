@@ -18,6 +18,7 @@
 		8979C55E28EDDC890094F20D /* SwitcherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */; };
 		8979C56028EDE08A0094F20D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C55F28EDE08A0094F20D /* MainController.swift */; };
 		8979C56228EDE2950094F20D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C56128EDE2950094F20D /* DetailView.swift */; };
+		8979C56428EDE4650094F20D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8979C56328EDE4650094F20D /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8979C55D28EDDC890094F20D /* SwitcherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherViewCell.swift; sourceTree = "<group>"; };
 		8979C55F28EDE08A0094F20D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		8979C56128EDE2950094F20D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8979C56328EDE4650094F20D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				8979C55F28EDE08A0094F20D /* MainController.swift */,
+				8979C56328EDE4650094F20D /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				8979C52628ED782C0094F20D /* AppDelegate.swift in Sources */,
 				8979C52828ED782C0094F20D /* SceneDelegate.swift in Sources */,
 				8979C55828EDD3120094F20D /* Model.swift in Sources */,
+				8979C56428EDE4650094F20D /* DetailController.swift in Sources */,
 				8979C55A28EDD9010094F20D /* ProfileViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
